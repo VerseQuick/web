@@ -32,22 +32,22 @@ def create_sitemap(urls):
 
 urls = []
 for p in fixed_pages:
-    urls.append(f"https://bible.berinaniesh.xyz/{p}")
+    urls.append(f"https://versequick.com/{p}")
 
 
-trs = requests.get("https://api.bible.berinaniesh.xyz/translations").json()
+trs = requests.get("https://api.versequick.com/translations").json()
 
 translations = [i["name"] for i in trs]
-chaptercount = requests.get("https://api.bible.berinaniesh.xyz/chaptercount").json()
+chaptercount = requests.get("https://api.versequick.com/chaptercount").json()
 
 for translation in translations:
-    urls.append(f"https://bible.berinaniesh.xyz/{translation}")
+    urls.append(f"https://versequick.com/{translation}")
     for chapter in chaptercount:
         book_name = chapter['book'].replace(" ", "-")
-        urls.append(f"https://bible.berinaniesh.xyz/{translation}/{book_name}")
+        urls.append(f"https://versequick.com/{translation}/{book_name}")
         chapters = chapter['chapters']
         for i in range(chapters):
-            urls.append(f"https://bible.berinaniesh.xyz/{translation}/{book_name}/{i+1}")
+            urls.append(f"https://versequick.com/{translation}/{book_name}/{i+1}")
 
 
 create_sitemap(urls)
