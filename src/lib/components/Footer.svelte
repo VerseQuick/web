@@ -24,7 +24,7 @@
 			</li>
 		{/each}
 		<li class="mx-4 hover:text-blue-600 hover:underline">
-			<a target="blank" href="https://github.com/berinaniesh/bible-web">Source</a>
+			<a target="blank" href="https://github.com/VerseQuick/web">Source</a>
 		</li>
 	</ul>
 </div>
