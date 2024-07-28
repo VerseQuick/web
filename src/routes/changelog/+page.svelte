@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Changelog • Bible</title>
+	<title>Changelog • VerseQuick</title>
 </svelte:head>
 
 <div class="px-4 md:px-0">

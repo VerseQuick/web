@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.bookStruct.book_name} • {data.currentTranslation} • Bible</title>
+	<title>{data.bookStruct.book_name} • {data.currentTranslation} • VerseQuick</title>
 </svelte:head>
 
 <div

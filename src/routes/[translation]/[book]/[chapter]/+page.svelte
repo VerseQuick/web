@@ -106,7 +106,7 @@
 
 <svelte:head>
 	<title
-		>{data.bookStruct.book_name} {data.currentChapter} • {data.currentTranslation} • Bible</title
+		>{data.bookStruct.book_name} {data.currentChapter} • {data.currentTranslation} • VerseQuick</title
 	>
 </svelte:head>
 

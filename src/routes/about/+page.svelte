@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>About • Bible</title>
+	<title>About • VerseQuick</title>
 </svelte:head>
 
 <div class="px-4 md:px-0">

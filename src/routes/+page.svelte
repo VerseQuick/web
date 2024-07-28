@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>The Bible</title>
+	<title>VerseQuick</title>
 </svelte:head>
 
 <div class="font-2xl mb-2 text-center font-bold">Available Translations</div>

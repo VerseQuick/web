@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.currentTranslation} • Bible</title>
+	<title>{data.currentTranslation} • VerseQuick</title>
 </svelte:head>
 
 <div class={'mx-auto grid w-max grid-cols-1 md:grid-cols-2 ' + data.font}>
