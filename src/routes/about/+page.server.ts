@@ -14,9 +14,7 @@ export const load: PageServerLoad = () => {
 		`Bible requests welcome as long as the translation requested is in the public domain. If the language is something other than English (or Tamil), I'll need some help with feeding the translation into the database, fixing spelling mistakes, separating verses, etc.`,
 		`The same UI is also available at <a class="underline text-blue-600" href="https://bible.berinaniesh.xyz/" target="blank">bible.berinaniesh.xyz</a>`
 	];
-	const thanksPoints = [
-		`I'd like to thank "Dane" for sponsoring the domain.`
-	];
+	const thanksPoints = [`I'd like to thank "Dane" for sponsoring the domain.`];
 	const donationPoints = [
 		`Indian Users - berinaniesh@okicici (UPI)`,
 		`Worldwide - <a class="underline text-blue-600" href="https://paypal.me/berinaniesh" target="blank">paypal.me/berinaniesh</a>`
@@ -25,6 +23,6 @@ export const load: PageServerLoad = () => {
 		currentLocation: currentLocation,
 		aboutPoints: aboutPoints,
 		thanksPoints: thanksPoints,
-		donationPoints: donationPoints,
+		donationPoints: donationPoints
 	};
 };
