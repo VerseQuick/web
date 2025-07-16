@@ -17,7 +17,7 @@
 	<div class="grid grid-cols-2">
 		<div class="flex">
 			<a href="/" class="flex flex-col justify-center text-xl font-bold hover:text-blue-600"
-				><p>VerseQuick.com</p></a
+				><p>VerseQuick</p></a
 			>
 		</div>
 		<div class="flex justify-between text-3xl">
